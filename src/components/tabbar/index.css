@@ -1,0 +1,25 @@
+.tabbar {
+    background: #ffffff;
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid rgba(204, 204, 204, 0.43);
+    padding: 5px 0;
+}
+
+.tabbar-content {
+    display: flex;
+}
+
+.tabbar-item {
+    flex: 1;
+}
+
+.active {
+    color: red !important;
+}
+
+.tabbar-children {
+    margin-bottom: 50px;
+}
